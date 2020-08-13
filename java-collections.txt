@@ -1,0 +1,32 @@
+
+
+
+List                 |  add(E e) |  remove()  | get(index) | contains() | clear() | clone() | 
+---------------------|--------   |----------  |--------    |------------|-------- |-------- |
+ArrayList            |  O(1)     |   O(n)     |  O(1)      |    O(n)    |  O(1)   |  O(1)   | 
+LinkedList           |  O(1)     |   O(n)     |  O(n)      |    O(n)    |  O(1)   |  O(1)   | 
+
+
+
+Set                   |    add()   |  remove()  | contains() |   next()   | size() |
+----------------------|----------  |----------  |----------  |----------  |------  |
+HashSet               | O(1)       | O(1)       | O(1)       | O(h/n)     | O(1)   |
+LinkedHashSet         | O(1)       | O(1)       | O(1)       | O(1)       | O(1)   |
+EnumSet               | O(1)       | O(1)       | O(1)       | O(1)       | O(1)   |
+TreeSet               | O(log n)   | O(log n)   | O(log n)   | O(log n)   | O(1)   |
+
+
+
+Queue                   |  Offer   | Peak |   Poll   | Remove | Size |
+------------------------|----------|------|----------|--------|------|
+PriorityQueue           | O(log n) | O(1) | O(log n) |  O(n)  | O(1) |
+LinkedList              | O(1)     | O(1) | O(1)     |  O(1)  | O(1) |
+ArrayDequeue            | O(1)     | O(1) | O(1)     |  O(n)  | O(1) |
+
+
+Map                   |   Get    | ContainsKey |   Next   |
+----------------------|----------|-------------|----------|
+HashMap               | O(1)     |   O(1)      | O(h / n) |
+LinkedHashMap         | O(1)     |   O(1)      | O(1)     |
+EnumMap               | O(1)     |   O(1)      | O(1)     |
+TreeMap               | O(log n) |   O(log n)  | O(log n) |
